@@ -1,0 +1,31 @@
+[SETUP] Creating work library
+Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+vmap work work 
+** Note: (vmap-220) '/home/trungpham/EDA/quartus/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.
+Copying /home/trungpham/EDA/quartus/questa_fse/linux_x86_64/../modelsim.ini to modelsim.ini
+Modifying modelsim.ini
+[COMPILE] vlog -sv -work work -f tb/filelist.f
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+Start time: 15:18:46 on Jul 22,2026
+vlog -sv -work work -f tb/filelist.f 
+** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+-- Compiling module full_adder_1b
+-- Compiling module csa_3_2
+-- Compiling module gen_u16
+-- Compiling module wallace_reduce_16to11
+-- Compiling module wallace_reduce_11to8
+-- Compiling module wallace_reduce_8to6
+-- Compiling module wallace_reduce_6to4
+-- Compiling module wallace_reduce_4to3
+-- Compiling module wallace_reduce_3to2
+-- Compiling module wallace_stage1_comb
+-- Compiling module wallace_stage2_comb
+-- Compiling module brent_kung_adder_32
+-- Compiling module wallace_mul_u16_pipe3
+-- Compiling module tb_wallace_mul_u16_pipe3
+
+Top level modules:
+	full_adder_1b
+	tb_wallace_mul_u16_pipe3
+End time: 15:18:46 on Jul 22,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

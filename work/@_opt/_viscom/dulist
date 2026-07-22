@@ -1,0 +1,13 @@
+1 7 gen_u16 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 0 0 38 0
+1 7 csa_3_2 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 0 0 65 0
+1 21 wallace_reduce_16to11 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 0 0 135 0
+1 20 wallace_reduce_11to8 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 0 0 94 0
+1 19 wallace_reduce_8to6 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 0 0 71 0
+1 19 wallace_stage1_comb 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 0 0 39 0
+1 19 wallace_reduce_6to4 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 0 0 61 0
+1 19 wallace_reduce_4to3 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 0 0 18 0
+1 19 wallace_reduce_3to2 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 0 0 13 0
+1 19 wallace_stage2_comb 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 0 0 30 0
+1 19 brent_kung_adder_32 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 131072 0 419 0
+1 21 wallace_mul_u16_pipe3 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 131072 0 129 0
+1 24 tb_wallace_mul_u16_pipe3 4 fast 64 /home/trungpham/Downloads/wallace_multi_pipe3_backend_ready/work 0 0 0 0 298 0

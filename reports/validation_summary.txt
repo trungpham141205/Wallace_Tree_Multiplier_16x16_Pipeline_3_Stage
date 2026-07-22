@@ -1,0 +1,15 @@
+Package-generation validation
+=============================
+
+PASS: 200,000 random unsigned 16x16 cases checked with an independent Python model.
+PASS: Wallace row-sum preservation verified at 16->11->8->6->4->3->2 boundaries.
+PASS: Behavioral Brent-Kung prefix result checked against native 32-bit addition.
+PASS: RTL module/endmodule balance and default_nettype guards checked.
+PASS: Every path in rtl/filelist.f exists.
+
+Not executed in the artifact-generation container:
+- SystemVerilog compilation/simulation (iverilog/verilator not installed)
+- Yosys synthesis
+- OpenSTA timing analysis
+
+Executable scripts are included for those steps in an environment where the tools and target Liberty library are available.

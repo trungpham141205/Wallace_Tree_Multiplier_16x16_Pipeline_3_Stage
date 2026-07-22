@@ -1,0 +1,9 @@
+Wallace Multiplier Pipeline-3 RTL Simulation
+Result                : PASS
+Seed                  : 12345
+Accepted transactions : 1488
+Checked transactions  : 1488
+Errors                : 0
+Compile log           : reports/questa_compile.log
+Simulation log        : reports/questa_sim.log
+Waveform              : vsim.wlf

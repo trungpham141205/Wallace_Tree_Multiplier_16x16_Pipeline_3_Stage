@@ -1,0 +1,49 @@
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -c -sv_seed 12345 -voptargs="+acc" -l reports/questa_sim.log work.tb_wallace_mul_u16_pipe3 -do "onerror {quit -code 1 -force}; log -r /*; run -all; quit -code 0 -force" 
+# Start time: 15:18:46 on Jul 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 linux_x86_64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb_wallace_mul_u16_pipe3(fast)
+# Loading work.wallace_mul_u16_pipe3(fast)
+# Loading work.wallace_stage1_comb(fast)
+# Loading work.gen_u16(fast)
+# Loading work.wallace_reduce_16to11(fast)
+# Loading work.csa_3_2(fast)
+# Loading work.wallace_reduce_11to8(fast)
+# Loading work.wallace_reduce_8to6(fast)
+# Loading work.wallace_stage2_comb(fast)
+# Loading work.wallace_reduce_6to4(fast)
+# Loading work.wallace_reduce_4to3(fast)
+# Loading work.wallace_reduce_3to2(fast)
+# Loading work.brent_kung_adder_32(fast)
+# onerror {quit -code 1 -force}
+#  Warning: onerror command for use within macro
+#  log -r /*
+#  run -all
+# ----------------------------------------
+# Accepted transactions : 1488
+# Checked transactions  : 1488
+# Errors                : 0
+# ----------------------------------------
+# ALL TESTS PASSED
+# ** Note: $finish    : tb/tb_wallace_mul_u16_pipe3.sv(197)
+#    Time: 20185 ns  Iteration: 1  Instance: /tb_wallace_mul_u16_pipe3
+# End time: 15:18:47 on Jul 22,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1

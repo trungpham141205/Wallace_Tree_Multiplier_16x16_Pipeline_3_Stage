@@ -1,0 +1,13 @@
+rtl/common/full_adder_1b.sv
+rtl/common/csa_3_2.sv
+rtl/partial_product/gen_u16.sv
+rtl/wallace/wallace_reduce_16to11.sv
+rtl/wallace/wallace_reduce_11to8.sv
+rtl/wallace/wallace_reduce_8to6.sv
+rtl/wallace/wallace_reduce_6to4.sv
+rtl/wallace/wallace_reduce_4to3.sv
+rtl/wallace/wallace_reduce_3to2.sv
+rtl/wallace/wallace_stage1_comb.sv
+rtl/wallace/wallace_stage2_comb.sv
+rtl/adder/brent_kung_adder_32.sv
+rtl/top/wallace_mul_u16_pipe3.sv

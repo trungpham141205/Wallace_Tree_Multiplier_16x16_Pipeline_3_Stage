@@ -1,0 +1,379 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/trungpham/Downloads/wallace_multi_pipe3_backend_ready
+T_opt
+!i145 1
+!i144 0
+Z2 !s110 1784708326
+VQ?n8M:M9@mL>1YNZ_>NGH3
+04 24 4 work tb_wallace_mul_u16_pipe3 fast 0
+=1-14ac606edb59-6a607ce6-d4cd8-6bb7
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U26 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2025.2;82
+vbrent_kung_adder_32
+Z4 2rtl/common/full_adder_1b.sv|rtl/common/csa_3_2.sv|rtl/partial_product/gen_u16.sv|rtl/wallace/wallace_reduce_16to11.sv|rtl/wallace/wallace_reduce_11to8.sv|rtl/wallace/wallace_reduce_8to6.sv|rtl/wallace/wallace_reduce_6to4.sv|rtl/wallace/wallace_reduce_4to3.sv|rtl/wallace/wallace_reduce_3to2.sv|rtl/wallace/wallace_stage1_comb.sv|rtl/wallace/wallace_stage2_comb.sv|rtl/adder/brent_kung_adder_32.sv|rtl/top/wallace_mul_u16_pipe3.sv|tb/tb_wallace_mul_u16_pipe3.sv
+Z5 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+R2
+!i10b 1
+!s100 3`DHK:hgW4;dj?UeQ40<h0
+IB_ZOnIe2U6l9[`OIQ7Q793
+S1
+R1
+Z6 w1784703903
+8rtl/adder/brent_kung_adder_32.sv
+Frtl/adder/brent_kung_adder_32.sv
+!i122 0
+L0 4 98
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z9 !s108 1784708326.000000
+Z10 !s107 tb/tb_wallace_mul_u16_pipe3.sv|rtl/top/wallace_mul_u16_pipe3.sv|rtl/adder/brent_kung_adder_32.sv|rtl/wallace/wallace_stage2_comb.sv|rtl/wallace/wallace_stage1_comb.sv|rtl/wallace/wallace_reduce_3to2.sv|rtl/wallace/wallace_reduce_4to3.sv|rtl/wallace/wallace_reduce_6to4.sv|rtl/wallace/wallace_reduce_8to6.sv|rtl/wallace/wallace_reduce_11to8.sv|rtl/wallace/wallace_reduce_16to11.sv|rtl/partial_product/gen_u16.sv|rtl/common/csa_3_2.sv|rtl/common/full_adder_1b.sv|
+Z11 !s90 -sv|-work|work|-f|tb/filelist.f|
+!i113 0
+Z12 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vcsa_3_2
+R4
+R5
+R2
+!i10b 1
+!s100 QGLU68BazKEhcbBe]jYJ81
+IPnK<EPPNBe]N21EMoeMAS3
+S1
+R1
+R6
+8rtl/common/csa_3_2.sv
+Frtl/common/csa_3_2.sv
+!i122 0
+Z13 L0 4 21
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vfull_adder_1b
+R4
+R5
+R2
+!i10b 1
+!s100 gn@6I]]25Qm_3F@mKe=Vi2
+IdMoZfNB4oi>CdZ6`jneF02
+S1
+R1
+R6
+8rtl/common/full_adder_1b.sv
+Frtl/common/full_adder_1b.sv
+!i122 0
+L0 4 14
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vgen_u16
+R4
+R5
+R2
+!i10b 1
+!s100 6g_4DXCd:aO;3oZC`SJ5C0
+IN2EUmZRd1N@PZ@]XVmjH53
+S1
+R1
+R6
+8rtl/partial_product/gen_u16.sv
+Frtl/partial_product/gen_u16.sv
+!i122 0
+Z14 L0 4 18
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vtb_wallace_mul_u16_pipe3
+R4
+R5
+R2
+!i10b 1
+!s100 Yz>J`KgZo9O;ZXD7IVigV0
+Ia9YjLMzjTW6FzZCOd]_F@0
+S1
+R1
+w1784705130
+8tb/tb_wallace_mul_u16_pipe3.sv
+Ftb/tb_wallace_mul_u16_pipe3.sv
+!i122 0
+L0 4 197
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vwallace_mul_u16_pipe3
+R4
+R5
+R2
+!i10b 1
+!s100 jedD7Z<E4iJzdY0@FeXP=3
+IN8kL20N_UQ3IPQd8jBiEi0
+S1
+R1
+R6
+8rtl/top/wallace_mul_u16_pipe3.sv
+Frtl/top/wallace_mul_u16_pipe3.sv
+!i122 0
+L0 4 95
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vwallace_reduce_11to8
+R4
+R5
+R2
+!i10b 1
+!s100 kdkR@jJRDMY]h^][THmBK3
+IGNaA32ZJ;dZ=:Z>9IdgU]1
+S1
+R1
+R6
+8rtl/wallace/wallace_reduce_11to8.sv
+Frtl/wallace/wallace_reduce_11to8.sv
+!i122 0
+Z15 L0 4 24
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vwallace_reduce_16to11
+R4
+R5
+R2
+!i10b 1
+!s100 BFCl^Mde:DL1f=HhmUl]=2
+I5C=GY>Ji`1m_C3mRGaK[n0
+S1
+R1
+R6
+8rtl/wallace/wallace_reduce_16to11.sv
+Frtl/wallace/wallace_reduce_16to11.sv
+!i122 0
+L0 4 23
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vwallace_reduce_3to2
+R4
+R5
+R2
+!i10b 1
+!s100 Y0cQhA4eMgz76Hi?X>Yko3
+IA:6e_zcOzI`b<_G^];<bh0
+S1
+R1
+R6
+8rtl/wallace/wallace_reduce_3to2.sv
+Frtl/wallace/wallace_reduce_3to2.sv
+!i122 0
+L0 4 16
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vwallace_reduce_4to3
+R4
+R5
+R2
+!i10b 1
+!s100 ?zYf^6_Cf;Bek6N1]zYf@1
+IO;4WF?^EO=6JoBmJa]JhX1
+S1
+R1
+R6
+8rtl/wallace/wallace_reduce_4to3.sv
+Frtl/wallace/wallace_reduce_4to3.sv
+!i122 0
+R14
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vwallace_reduce_6to4
+R4
+R5
+R2
+!i10b 1
+!s100 bOi0<7z@F4`JIDG1KknJ[1
+I?BCfUQab_9hF2Ez?dbb<D0
+S1
+R1
+R6
+8rtl/wallace/wallace_reduce_6to4.sv
+Frtl/wallace/wallace_reduce_6to4.sv
+!i122 0
+R13
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vwallace_reduce_8to6
+R4
+R5
+R2
+!i10b 1
+!s100 ;cnzbm@K02CJnlZ^VlCiA0
+IEVAnS<9gA;agOIAJ=9Pha3
+S1
+R1
+R6
+8rtl/wallace/wallace_reduce_8to6.sv
+Frtl/wallace/wallace_reduce_8to6.sv
+!i122 0
+R15
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vwallace_stage1_comb
+R4
+R5
+R2
+!i10b 1
+!s100 3518;I87DEWD@F=m>7mG^1
+IiJz2DjATaIT<H0ViD^ZA01
+S1
+R1
+R6
+8rtl/wallace/wallace_stage1_comb.sv
+Frtl/wallace/wallace_stage1_comb.sv
+!i122 0
+L0 4 44
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vwallace_stage2_comb
+R4
+R5
+R2
+!i10b 1
+!s100 J1L`2ZOeQEJ];^5QI6aT=2
+I8:Rkj8jlY8WB_YDaCl=KK3
+S1
+R1
+R6
+8rtl/wallace/wallace_stage2_comb.sv
+Frtl/wallace/wallace_stage2_comb.sv
+!i122 0
+L0 4 36
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3

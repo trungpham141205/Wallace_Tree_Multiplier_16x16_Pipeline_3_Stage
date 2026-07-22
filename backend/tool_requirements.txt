@@ -1,0 +1,5 @@
+RTL simulation: iverilog + vvp, or another SystemVerilog simulator
+Generic synthesis: Yosys
+Mapped STA: OpenSTA plus a Liberty timing library
+Backend: OpenROAD/Innovus/ICC2 or equivalent
+Gate timing simulation: post-route netlist, cell simulation models and SDF
